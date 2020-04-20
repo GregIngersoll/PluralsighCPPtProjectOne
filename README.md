@@ -1,2 +1,1 @@
-# PluralsighCPPtProjectOne
-Area for First Pluralsight CPP project
+# Pluralsight CPP Project One repo
