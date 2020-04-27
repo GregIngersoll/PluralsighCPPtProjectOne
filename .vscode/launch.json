@@ -25,6 +25,29 @@
             ],
             "preLaunchTask": "C/C++: g++-7 build active file",
             "miDebuggerPath": "/usr/bin/gdb"
-        }
-    ]
+        },
+        {
+            "name": "clang++ - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/psCppOne",
+            "internalConsoleOptions": "openOnSessionStart",
+            "logging": {
+               "moduleLoad": false,
+               "programOutput": true,
+               "trace": false
+            },
+            "showDisplayString": true,
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole":   false,
+            "osx":{
+               "MIMode": "lldb",
+            },
+            "preLaunchTask": "clang++ build active file"
+        
+      }
+   ]
 }

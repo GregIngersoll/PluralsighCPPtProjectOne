@@ -1,10 +1,11 @@
 void TestBuiltIns(void);
 void ClassesAndObjects(void);
-
+void FlowOfControl(void);
 
 int main()
 {
-   ClassesAndObjects();
+   FlowOfControl();
+   //ClassesAndObjects();
    //TestBuiltIns();
 }
 

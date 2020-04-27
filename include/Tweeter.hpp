@@ -1,10 +1,9 @@
 #pragma once
 
 #include <string>
+#include <Person.hpp>
 
-#include "Person.hpp"
-
-using namespace std;
+using std::string;
 
 class Tweeter : public Person
 {
